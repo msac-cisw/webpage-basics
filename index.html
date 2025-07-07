@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webpage Basics – HTML & CSS</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Webpage Basics  – HTML & CSS</h1>
+    </header>
+
+    <main>
+
+        <section id="html">
+            <h2>HTML</h2>
+            <p>HTML (HyperText Markup Language) is the standard markup language
+                for creating web pages. It describes the structure of a webpage using tags.</p>
+            <p>HTML documents need three tags: <code>html</code>, <code>head</code>, and <code>body</code>. Here is the code to create a simple webpage:</p>
+            <pre>
+<code><span class="html-doctype">&lt;!DOCTYPE html&gt;</span>
+<span class="html-tag">&lt;html</span> <span class="html-attribute">lang</span><span class="html-tag">=</span><span class="html-value">"en"</span><span class="html-tag">&gt;</span>
+<span class="html-tag">&lt;head&gt;</span>
+    <span class="html-tag">&lt;meta</span> <span class="html-attribute">charset</span><span class="html-tag">=</span><span class="html-value">"UTF-8"</span><span class="html-tag">&gt;</span>
+    <span class="html-tag">&lt;title&gt;</span><span class="html-text">My Simple Website</span><span class="html-tag">&lt;/title&gt;</span>
+<span class="html-tag">&lt;/head&gt;</span>
+<span class="html-tag">&lt;body&gt;</span>
+    <span class="html-tag">&lt;h1&gt;</span><span class="html-text">Hello, World!</span><span class="html-tag">&lt;/h1&gt;</span>
+<span class="html-tag">&lt;/body&gt;</span>
+<span class="html-tag">&lt;/html&gt;</span>
+</code>
+            </pre>
+
+            <p>You can open an html file with the simple website code. Save a plaintext file as simple.html</p>
+
+            <details>
+                <summary>View the simple website.</summary>
+                <figure>
+                    <img src="assets/simple.png" width="450px" alt="simple html site">
+                    <figcaption>A simple website displayed in the browser.</figcaption>
+                </figure>
+            </details>
+
+        </section>
+
+        <section id="css">
+            <h2>CSS</h2>
+            <p>Cascading Style Sheets (CSS) describe how HTML elements are to
+                be displayed on screen. It can control the layout of multiple web
+                pages all at once.</p>
+            <p>We can add CSS styles in a separate document, in a style tag in the html head, or inline on an html tag.
+            </p>
+            <p>Here is an example of some simple CSS rules:</p>
+            <pre>
+<code>
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 auto;
+    width: 600px;
+}
+
+h1 {
+    color: #333;
+}
+
+p {
+    color: #666;
+}
+</code>
+        </pre>
+
+        <p>CSS rules apply to specific parts, tags, ID's, and classes. For example, the rules under <code>body</code> are contained within <code>{}</code> curly braces. Those rules do the following:</p>
+        <ul>
+            <li>Set the display font for the entire webpage</li>
+            <li>Adjust the margin on the top of the page to zero and automatically adjust the left & right margins. This will center the page on the browser.</li>
+            <li>Set the width to be 600px</li>
+        </ul>
+
+        <p>The rule under the <code>h1</code> tag changes the color of the text for all heading 1 elements. The for all paragraphs (<code>p</code>).</p>
+
+            <details>
+                <summary>View the simple website with CSS.</summary>
+                <figure>
+                    <img src="assets/css.png" width="450px" alt="simple html site">
+                    <figcaption>A simple website with CSS rules applied.</figcaption>
+                </figure>
+            </details>
+
+            <p></p>
+
+        </section>
+
+        <p id="spacer"></p>
+
+    </main>
+
+    <footer>
+        <p><i>&copy; 2025 Sable Cantus</i></p>
+    </footer>
+</body>
+
+</html>

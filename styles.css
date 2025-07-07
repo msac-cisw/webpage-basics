@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #60a2f2;
+    color: rgb(252, 243, 243);
+    padding: 1rem 0;
+    text-align: center;
+}
+main {
+    padding: 1rem;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+h2 {
+    color: #333;
+}
+
+pre {
+    background: #f4f4f4;
+    padding: 1rem;
+    overflow-x: auto;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+#spacer {
+    height: 25px;
+}
+
+details {
+    background-color: #fffacd3e;
+    padding: 1rem;
+    box-sizing: border-box;
+    border: 1px solid #e6e6e6;
+    border-radius: 4px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+details summary {
+    cursor: pointer;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+details[open] summary {
+    margin-bottom: 1rem;
+}
+
+details figure {
+    margin: 0;
+    text-align: center;
+}
+
+details figcaption {
+    font-style: italic;
+    color: #666;
+    margin-top: 0.5rem;
+}
+
+/* Syntax highlighting for HTML */
+.html-tag {
+    color: #2e7d32;
+    font-weight: bold;
+}
+
+.html-attribute {
+    color: #1565c0;
+}
+
+.html-value {
+    color: #d32f2f;
+}
+
+.html-doctype {
+    color: #673ab7;
+    font-weight: bold;
+}
+
+.html-text {
+    color: #333;
+}
+
+.html-comment {
+    color: #888;
+    font-style: italic;
+}
